@@ -1,0 +1,171 @@
+@import url('http://fonts.googlepis.com/css?family=helvetica');
+
+body {
+    background-image: url(images/water-header.png);
+    background-size:150%;
+    font-size: 26px;
+    line-height: 38px;
+    color: #333;
+    font-family: 'helvetica', sans-serif;
+}
+
+.menu {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none
+}
+.menu li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+header{
+    background-image: url(images/maria.jpg);
+    align-content: center;
+    background-size: cover;
+    text-align: center;
+    line-height: normal;
+    color: white;
+    margin:0 0;
+}
+
+.album-title {
+    background: #FFF;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+}
+.about {
+    background: #FFF;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.roses {
+    background-image: url(images/roses-tracklist.png);
+    padding: 20px;
+}
+.players {
+    background-image: url(images/roses-tracklist.png);
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+        
+}
+    
+.band {
+    background-image: url(images/water-header.png);
+    background-size: 120%;
+    margin-top: 3opx;
+    
+
+}
+.band-members {
+    background: #FFF;
+    padding-top: 0px;
+    padding: 40px 0;
+    margin-bottom: 0px;
+}
+
+.playlist {
+    background-image: url(images/roses-tracklist.png);
+    color: white;
+    text-align: center;
+    padding-bottom: 140px;
+    margin-top: 30px;
+}
+.playlist h4 {
+    margin-bottom: 20px;
+}
+.playlist img,
+.band img {
+    width: 100%;
+}
+.youtube-link {
+    background-image: url(images/roses-tracklist.png)
+}
+
+footer {
+    text-align: center;
+    background: #000;
+    color: #FFF;
+    padding: 10px;
+}
+
+h1,
+h2,
+h4,
+h3 {
+    font-family: 'HelveticaNeue-CondensedBold', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 68px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 0;
+    display: inline-block;
+    position: relative;
+}
+h2:before {
+    content: "";
+    background: url(images/cherab.png) no-repeat center center;
+    width: 70px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    top: -35px;
+    left: -110px;
+}
+h2:after {
+ content: "";
+    background: url(images/cherab.png) no-repeat center center;
+    width: 70px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    top: -35px;
+    right: -110px;
+}
+
+
+h3 {
+    font-size: 26px;
+    line-height:32px;
+}
+
+h4 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 0;
+    display: inline-block;
+    position: relative;
+}
+.social {
+    text-align: left;
+    padding-left:60px;
+}
+
+@media (max-width: 880px) {
+    body {
+        background: #333
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background: #897
+    }
+}
